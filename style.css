@@ -1,69 +1,84 @@
-body {
-    font-family: Arial, sans-serif;
+/* ------------------------------
+   ESTILO GERAL
+------------------------------ */
+* {
     margin: 0;
     padding: 0;
-    background: #fafafa;
-    text-align: center;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
 }
 
+body {
+    background: #f6faff;
+    color: #1f2d3d;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* ------------------------------
+   CABEÇALHO
+------------------------------ */
 header {
-    background: #FFE7A3;
-    padding: 20px 0;
+    padding: 25px 0 10px;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 32px;
+    font-size: 2.2rem;
+    color: #1a4c8f; /* azul profissional */
+    font-weight: 700;
 }
 
-.sub {
-    margin: 0;
-    font-size: 16px;
-    color: #444;
+header .sub {
+    font-size: 1.1rem;
+    color: #6b8fb6; /* azul pastel suave */
+    margin-top: -5px;
 }
 
+/* ------------------------------
+   SESSÃO HERO (INÍCIO)
+------------------------------ */
 .hero {
-    padding: 40px 20px;
-}
-
-.start-btn {
+    background: #ffffff;
+    padding: 60px 20px;
     margin-top: 20px;
-    padding: 15px 30px;
-    font-size: 20px;
-    cursor: pointer;
-    background: #FFB347;
-    border: none;
-    border-radius: 10px;
-}
-.hero {
-    text-align: center;
-    padding: 100px 20px;
+    border-radius: 22px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.08);
 }
 
-.hero h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
+.hero h2 {
+    font-size: 2rem;
+    color: #1a4c8f;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .hero p {
-    font-size: 24px;
-    margin-bottom: 40px;
+    font-size: 1.2rem;
+    color: #526b82;
+    margin-bottom: 30px;
 }
 
-.start-button {
-    display: inline-block;
-    padding: 20px 60px;
-    font-size: 28px;
+/* ------------------------------
+   BOTÃO START
+------------------------------ */
+.start-btn {
+    background: #1a4c8f;   /* azul base */
+    color: #ffffff;
+    border: none;
+    padding: 18px 40px;
+    font-size: 1.3rem;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.25s;
     font-weight: bold;
-    text-decoration: none;
-    background-color: #ffcc00;
-    color: #000;
-    border-radius: 40px;
-    transition: 0.3s;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    letter-spacing: 1px;
 }
 
-.start-button:hover {
-    background-color: #ffdd33;
+.start-btn:hover {
+    background: #153f79;
     transform: scale(1.05);
+}
+
+.start-btn:active {
+    transform: scale(0.97);
 }
