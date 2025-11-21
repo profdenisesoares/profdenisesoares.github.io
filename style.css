@@ -61,24 +61,25 @@ header .sub {
 /* ------------------------------
    BOTÃO START
 ------------------------------ */
-.start-btn {
-    background: #1a4c8f;   /* azul base */
-    color: #ffffff;
-    border: none;
-    padding: 18px 40px;
-    font-size: 1.3rem;
-    border-radius: 14px;
-    cursor: pointer;
-    transition: 0.25s;
-    font-weight: bold;
-    letter-spacing: 1px;
+.start-button {
+    display: inline-block;
+    background: linear-gradient(135deg, #66bdf7, #90d4ff);
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 18px 32px;
+    border-radius: 40px;
+    text-decoration: none;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.start-btn:hover {
-    background: #153f79;
+.start-button:hover {
     transform: scale(1.05);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.22);
 }
 
-.start-btn:active {
+.start-button:active {
     transform: scale(0.97);
 }
+
