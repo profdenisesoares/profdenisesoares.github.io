@@ -35,3 +35,35 @@ header h1 {
     border: none;
     border-radius: 10px;
 }
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.start-button {
+    display: inline-block;
+    padding: 20px 60px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ffcc00;
+    color: #000;
+    border-radius: 40px;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.start-button:hover {
+    background-color: #ffdd33;
+    transform: scale(1.05);
+}
