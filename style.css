@@ -125,8 +125,8 @@ header .sub {
 }
 
 .card-icon {
-    width: 80px;       /* tamanho do ícone */
-    height: 80px;
+    width: 100px;       /* tamanho do ícone */
+    height: 100px;
     object-fit: contain;
     display: block;
     margin: 0 auto 10px; /* centraliza e dá espaço abaixo do ícone */
